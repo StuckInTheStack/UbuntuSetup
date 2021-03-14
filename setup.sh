@@ -71,7 +71,7 @@ RESET="\033[00m"       # Normal
 
 STAGE=0                                                         # Where are we up to
 TOTAL=$( grep '(${STAGE}/${TOTAL})' $0 | wc -l );(( TOTAL-- ))  # How many things have we got todo
-
+TOTAL=TOTAL -6 # adapting for the 5 commented out stages and the line directly above 
 
 #-Arguments------------------------------------------------------------#
 
