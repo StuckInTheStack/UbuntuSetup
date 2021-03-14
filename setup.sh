@@ -25,11 +25,11 @@
 #                                                                           #
 #  1. Update USER, HOME, and ROOT directly below for your username, home    #
 #     and root directories.                                                 #
-#  1. Run as root after a clean install of Linux.                           #
+#  2. Run as root after a clean install of Linux.                           #
 #     *  Create a clone or snapshot prior to any changes.                   #
 #                             ---                                           #
-#  2. You will need 15GB free HDD space before running.                     #
-#  3. Command line arguments:                                               #
+#  3. You will need 15GB free HDD space before running.                     #
+#  4. Command line arguments:                                               #
 #      -keepdirs = Stops deletion of the Public,Videos,Templates,and Music  #
 #      -dns      = Use OpenDNS and locks permissions                        #
 #      -osx      = Changes to Apple keyboard layout                         #
